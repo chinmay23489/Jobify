@@ -2,6 +2,7 @@ const intitalState={
     jobs:[]
 }
 
+//job reducer
 export const jobsReducer=(state=intitalState,action)=>
 {
      switch(action.type)
