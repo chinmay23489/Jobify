@@ -3,7 +3,7 @@ import DefaultLayout from '../components/DefaultLayout';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { Button, Tag } from 'antd';
-// import moment from 'moment';
+
 import { Link } from 'react-router-dom';
 import { applyJob } from 'redux/actions/jobActions';
 
