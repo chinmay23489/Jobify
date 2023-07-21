@@ -20,7 +20,7 @@ import EditJob from 'pages/EditJob';
 
 import { getAllUsers } from 'redux/actions/userActions';
 import UserInfo from 'pages/UserInfo';
-
+//added app file 
 function App() {
   const { loader } = useSelector(state => state.loaderReducer);
   const dispatch = useDispatch();
