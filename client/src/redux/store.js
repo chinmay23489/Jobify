@@ -7,7 +7,7 @@ import { loaderReducer} from './reducers/loaderReducer'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { usersReducer } from './reducers/usersReducer';
 
-
+//store 
 const rootReducer = combineReducers({
   jobsReducer: jobsReducer,
   loaderReducer:loaderReducer,
