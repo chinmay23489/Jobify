@@ -1,4 +1,4 @@
-
+//posted job details
 
 import React, { useState } from "react";
 import DefaultLayout from "../components/DefaultLayout";
