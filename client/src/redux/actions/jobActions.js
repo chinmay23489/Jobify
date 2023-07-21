@@ -13,7 +13,7 @@ export const getAllJobs = () => async dispatch => {
    }
    dispatch({ type: 'LOADING', payload: false });
 }
-
+// for post job
 // export const postJob = (values) => async (dispatch) => {
 //    values.postedBy = JSON.parse(localStorage.getItem("user"))._id;
 
