@@ -1,6 +1,7 @@
 import axios from "axios";
 import { message } from "antd";
 
+//added register user 
 export const registerUser=(values)=>async dispatch =>{
    
     dispatch({type:'LOADING',payload:true})
