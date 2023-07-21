@@ -3,6 +3,7 @@ import DefaultLayout from "../components/DefaultLayout";
 import { useSelector, useDispatch } from "react-redux";
 import { Table } from "antd";
 
+//shows the job
 function AppliedJobs() {
 
     const { jobs } = useSelector(state => state.jobsReducer)
