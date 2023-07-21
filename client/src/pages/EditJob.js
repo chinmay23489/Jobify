@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateUser } from "../redux/actions/userActions";
 import { postJob } from "redux/actions/jobActions";
 
-
+//edit the job
 
 const { TextArea } = Input;
 const { TabPane } = Tabs;
