@@ -24,7 +24,7 @@ const PostJobs = () => {
     console.log(finalObj)
     dispatch(postJob(finalObj))
   }
-
+  //job posted 
   return (
 
     <div>
