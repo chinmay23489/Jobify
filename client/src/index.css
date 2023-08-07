@@ -1,16 +1,10 @@
+
+@charset "UTF-8";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*body{
-  font-family: 'Montserrat', sans-serif !important;
 
-}
 
-/* body {
-  margin: 0px;
-  font-family: 'Montserrat', sans-serif !important;
-  line-height: 1.42857143;
-  color: #333;
- 
-} */
 
 
 
@@ -34,8 +28,6 @@
 }
 
 .site-layout .site-layout-background {
-  /* background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg&ga=GA1.2.20221251.1687764704&semt=ais');
-  background-size: cover; */
   
   background: #ffffff;
 }
@@ -63,7 +55,7 @@
   margin: 0px 0px;
   padding: 10px;
 } 
-/* load the loader icon */
+
 .loader-container {
   display: flex;
   justify-content: center;
@@ -83,7 +75,7 @@
 }
 
 
-/* Job Starting page*/
+
 
 .job-div {
   font-family: 'Montserrat', sans-serif;
@@ -115,7 +107,7 @@
   align-items: center;
 }
 
-/* Job Info Page*/
+
 .job-info {
   font-family: 'Montserrat', sans-serif;
   margin: 20px;
@@ -181,7 +173,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* header css */
+
 .header-content {
   position: sticky;
   top: 0;
@@ -189,8 +181,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
-  background-color: #ffffff; /* optional background color */
-  z-index: 100; /* optional z-index to control the stacking order */
+  background-color: #ffffff; 
+  z-index: 100; 
 }
 
 
@@ -201,17 +193,13 @@
 }
 
 
-/* label{
-  font-family: 'Montserrat', sans-serif;
-} */
 
-/* login styling part */
 .login{
   padding-top: 50px;
 }
 
 .login {
-  /* background-color: transparent; */
+  
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
@@ -219,7 +207,7 @@
   height: 100vh;
   background-color: #ccc9d1; 
   background-image:url('https://t4.ftcdn.net/jpg/02/16/47/33/240_F_216473351_FCLq1pZQOBFrgcyPBphKvBd8Z5wjD1dI.jpg'); 
-  /* background-image: url('https://img.freepik.com/premium-vector/futuristic-sensor-panel-with-lock-glowing-computer-circuit-board-biometric-data-security_185386-1076.jpg?w=1380'); */
+  
   background-size: cover;
 } 
 
@@ -263,15 +251,11 @@
 .login-form-button span {
   color: #ffffff;
 } 
-/* Profile Page */
+
 input, textarea{
-  /* opacity: inherit;
-  z-index: auto;
-  background-color: transparent;
-  flood-opacity: 5%; */
-  /* font-family: 'Montserrat', sans-serif; */
+  
   border-radius: 0px !important;
-  /* border: 2px solid black !important; */
+ 
 }
 .buttonstyle {
   background-color: 'black' !important;
@@ -279,22 +263,11 @@ input, textarea{
   border-radius: 4px!important;
   padding: '2px 16px'!important;
   margin-top: '2px'!important;
-  } */
+  } 
 
-  /* Profile.css */
+  
 
-/* Apply styles to the form container */
-/* .profile-form {
-  font-family: 'Montserrat', sans-serif;
-  max-width: 500vh;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-/* Apply styles to form fields */
 .profile-form .ant-form-item-label {
   text-align: left;
 }
@@ -307,7 +280,7 @@ input, textarea{
   margin-right: 10px;
 }
 
-/* Apply styles to tabs */
+
 .profile-form .ant-tabs {
   margin-top: 20px;
 }
@@ -338,7 +311,7 @@ input, textarea{
   margin-top: 10px;
 }
 
-/* Apply styles to previous/next buttons */
+
  .profile-form .ant-btn {
   margin-right:10px;
 }
@@ -347,154 +320,3 @@ input, textarea{
   margin-right: 0;
 } 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif !important;
-
-}
-html , body{
-  overflow-x: hidden !important;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-#components-layout-demo-custom-trigger .trigger {
-  padding: 0 24px;
-  font-size: 18px;
-  line-height: 64px;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-#components-layout-demo-custom-trigger .trigger:hover {
-  color: #1890ff;
-}
-
-#components-layout-demo-custom-trigger .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.site-layout .site-layout-background {
-  background: #fff;
-}
-
-.ant-layout-sider{
-  height: 100vh !important;
-}
-.ant-layout-header span svg{
-  height: 25px !important;
-  width: 25px !important;
-  margin-left: 10px !important;
-}
-.logo{
-  
-  text-align: center;
-  font-size: 30px !important;
-}
-.logo h1{
-  color: white !important;
-}
-.ant-layout-content{
-  margin: 0 !important;
-  padding: 10px !important; 
-}
-
-.sweet-loading{
-
-    position: fixed !important;
-    top : 30% !important;
-    height: 100% !important;
-    width: 100% !important;
-    z-index: 9999;
-
-}
-
-.flex{
-  display: flex !important;
-  align-items: center !important;
-}
-
-p{
-  font-weight: 500 !important;
-  margin: 2px !important;
-  padding : 2px !important;
-  font-size: 16px !important;
-}
-.bs{
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-.job-div{
-  border-radius: 15px !important;
-}
-
-button{
-  background-color: #001529 !important;
-  color: white !important;
-  border-radius: 5px !important;
-}
-.login , .register{
-  padding-top: 150px ;
-}
-input , textarea{
-  border: 1px solid #001529 !important;
-  box-shadow: none !important;
-}
-
-.ant-message{
-  z-index: 9999 !important;
-}
-.ant-btn{
-  height: 33px !important;
-}
-
-.login{
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  height: 100vh !important;
-}
-.login-form{
-  background-color: white !important;
-}
-
-.register{
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  height: 100vh !important;
-}
-.register-form{
-  background-color: white !important;
-}
-
-.heading1 , .heading2{
-   font-size: 100px !important;
-   color: white !important;
-   text-align: center !important;
-}
-.heading1{
-  border-top: 10px solid tomato !important;
-  margin: 10px;
-}
-
-.heading2{
-  border-bottom: 10px solid yellow !important;
-  margin: 10px;
-}
-.ant-icon{
-  font-size: 20px !important;
-  margin-right: 5px !important;
-}
-.ant-menu-item{
-  margin-top: 20px !important;
-}
-h1{
-  font-size: 35px !important;
-} */
